@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		40DDB1FE2285CD3E008E2DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */; };
-		40DDB2002285CD3E008E2DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB1FF2285CD3E008E2DBD /* ViewController.swift */; };
 		40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2012285CD3E008E2DBD /* Main.storyboard */; };
 		40DDB2052285CD41008E2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2042285CD41008E2DBD /* Assets.xcassets */; };
 		40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2062285CD41008E2DBD /* LaunchScreen.storyboard */; };
 		40DDB2132285CD41008E2DBD /* BlockArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2122285CD41008E2DBD /* BlockArtTests.swift */; };
 		40DDB21E2285CD41008E2DBD /* BlockArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB21D2285CD41008E2DBD /* BlockArtUITests.swift */; };
+		40DDB22D2285D095008E2DBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB22C2285D095008E2DBD /* LoginViewController.swift */; };
+		40DDB2302285D0B5008E2DBD /* MyArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB22F2285D0B5008E2DBD /* MyArtViewController.swift */; };
+		40DDB2332285D0D9008E2DBD /* ArtSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2322285D0D9008E2DBD /* ArtSaleViewController.swift */; };
+		40DDB2392285D27D008E2DBD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2382285D27D008E2DBD /* BaseViewController.swift */; };
+		40DDB2412285D46B008E2DBD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB23B2285D46A008E2DBD /* Constants.swift */; };
+		40DDB2422285D46B008E2DBD /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB23C2285D46A008E2DBD /* Int+Extension.swift */; };
+		40DDB2432285D46B008E2DBD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB23D2285D46A008E2DBD /* APIService.swift */; };
+		40DDB2442285D46B008E2DBD /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB23E2285D46A008E2DBD /* Double+Extension.swift */; };
+		40DDB2452285D46B008E2DBD /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB23F2285D46A008E2DBD /* data.txt */; };
+		40DDB2462285D46B008E2DBD /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2402285D46A008E2DBD /* DetailModel.swift */; };
+		40DDB24D2285DD37008E2DBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2492285DD37008E2DBD /* DetailViewController.swift */; };
+		40DDB24E2285DD37008E2DBD /* SavioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB24A2285DD37008E2DBD /* SavioViewController.swift */; };
+		40DDB24F2285DD37008E2DBD /* SavioViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB24B2285DD37008E2DBD /* SavioViewController2.swift */; };
+		40DDB2502285DD37008E2DBD /* SavioViewControllerRX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB24C2285DD37008E2DBD /* SavioViewControllerRX.swift */; };
+		40DDB2522285DD41008E2DBD /* SavioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2512285DD41008E2DBD /* SavioModel.swift */; };
+		40DDB2552285DD4B008E2DBD /* SavioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2532285DD4B008E2DBD /* SavioTableViewCell.xib */; };
+		40DDB2562285DD4B008E2DBD /* SavioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2542285DD4B008E2DBD /* SavioTableViewCell.swift */; };
+		40DDB25D2285DD57008E2DBD /* SavioVazModelViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2592285DD57008E2DBD /* SavioVazModelViewDataSource.swift */; };
+		40DDB25E2285DD57008E2DBD /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB25A2285DD57008E2DBD /* ImageCacheLoader.swift */; };
+		40DDB2622285F323008E2DBD /* DetailSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2612285F323008E2DBD /* DetailSellViewController.swift */; };
+		40DDB2642285F33C008E2DBD /* DetailBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2632285F33C008E2DBD /* DetailBuyViewController.swift */; };
+		40DDB2672285FEFD008E2DBD /* ArtBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2662285FEFD008E2DBD /* ArtBuyViewController.swift */; };
+		7677AF1CEB612F5A79D24C10 /* Pods_BlockArtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */; };
+		8431C96CFC07D8F4DF0E206E /* Pods_BlockArtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */; };
+		91F7E31436B52A57F35FF67B /* Pods_BlockArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArtTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CB093583656727D81F3304 /* Pods-BlockArtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtUITests/Pods-BlockArtUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.debug.xcconfig"; sourceTree = "<group>"; };
+		3AEDF1CD448341DA97148506 /* Pods-BlockArtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtTests/Pods-BlockArtTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F91A521E68BF5D36482E27A /* Pods-BlockArtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtTests/Pods-BlockArtTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40DDB1FA2285CD3E008E2DBD /* BlockArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40DDB1FF2285CD3E008E2DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40DDB2022285CD3E008E2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40DDB2042285CD41008E2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40DDB2072285CD41008E2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,32 @@
 		40DDB2192285CD41008E2DBD /* BlockArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockArtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DDB21D2285CD41008E2DBD /* BlockArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockArtUITests.swift; sourceTree = "<group>"; };
 		40DDB21F2285CD41008E2DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DDB22C2285D095008E2DBD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40DDB22F2285D0B5008E2DBD /* MyArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArtViewController.swift; sourceTree = "<group>"; };
+		40DDB2322285D0D9008E2DBD /* ArtSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtSaleViewController.swift; sourceTree = "<group>"; };
+		40DDB2382285D27D008E2DBD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		40DDB23B2285D46A008E2DBD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40DDB23C2285D46A008E2DBD /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		40DDB23D2285D46A008E2DBD /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		40DDB23E2285D46A008E2DBD /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		40DDB23F2285D46A008E2DBD /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		40DDB2402285D46A008E2DBD /* DetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		40DDB2492285DD37008E2DBD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		40DDB24A2285DD37008E2DBD /* SavioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioViewController.swift; sourceTree = "<group>"; };
+		40DDB24B2285DD37008E2DBD /* SavioViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioViewController2.swift; sourceTree = "<group>"; };
+		40DDB24C2285DD37008E2DBD /* SavioViewControllerRX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioViewControllerRX.swift; sourceTree = "<group>"; };
+		40DDB2512285DD41008E2DBD /* SavioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioModel.swift; sourceTree = "<group>"; };
+		40DDB2532285DD4B008E2DBD /* SavioTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavioTableViewCell.xib; sourceTree = "<group>"; };
+		40DDB2542285DD4B008E2DBD /* SavioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioTableViewCell.swift; sourceTree = "<group>"; };
+		40DDB2592285DD57008E2DBD /* SavioVazModelViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavioVazModelViewDataSource.swift; sourceTree = "<group>"; };
+		40DDB25A2285DD57008E2DBD /* ImageCacheLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
+		40DDB2612285F323008E2DBD /* DetailSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailSellViewController.swift; path = BlockArt/Details/DetailSellViewController.swift; sourceTree = SOURCE_ROOT; };
+		40DDB2632285F33C008E2DBD /* DetailBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuyViewController.swift; sourceTree = "<group>"; };
+		40DDB2662285FEFD008E2DBD /* ArtBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBuyViewController.swift; sourceTree = "<group>"; };
+		51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtUITests/Pods-BlockArtUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.release.xcconfig"; sourceTree = "<group>"; };
+		EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArtUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F7E31436B52A57F35FF67B /* Pods_BlockArt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8431C96CFC07D8F4DF0E206E /* Pods_BlockArtTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7677AF1CEB612F5A79D24C10 /* Pods_BlockArtUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +134,13 @@
 		40DDB1F12285CD3E008E2DBD = {
 			isa = PBXGroup;
 			children = (
+				40DDB23A2285D46A008E2DBD /* Misc */,
 				40DDB1FC2285CD3E008E2DBD /* BlockArt */,
 				40DDB2112285CD41008E2DBD /* BlockArtTests */,
 				40DDB21C2285CD41008E2DBD /* BlockArtUITests */,
 				40DDB1FB2285CD3E008E2DBD /* Products */,
+				C5804A4EAADB41A590A43690 /* Pods */,
+				C2D697797AEBC3A74DE549DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +157,12 @@
 		40DDB1FC2285CD3E008E2DBD /* BlockArt */ = {
 			isa = PBXGroup;
 			children = (
+				40DDB2312285D0BE008E2DBD /* ArtBUY */,
+				40DDB2352285D193008E2DBD /* Details */,
+				40DDB2342285D180008E2DBD /* Misc */,
+				40DDB22E2285D09F008E2DBD /* MyArt */,
+				40DDB22B2285CD60008E2DBD /* Login */,
 				40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */,
-				40DDB1FF2285CD3E008E2DBD /* ViewController.swift */,
 				40DDB2012285CD3E008E2DBD /* Main.storyboard */,
 				40DDB2042285CD41008E2DBD /* Assets.xcassets */,
 				40DDB2062285CD41008E2DBD /* LaunchScreen.storyboard */,
@@ -125,6 +189,109 @@
 			path = BlockArtUITests;
 			sourceTree = "<group>";
 		};
+		40DDB22B2285CD60008E2DBD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB22C2285D095008E2DBD /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		40DDB22E2285D09F008E2DBD /* MyArt */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB22F2285D0B5008E2DBD /* MyArtViewController.swift */,
+			);
+			path = MyArt;
+			sourceTree = "<group>";
+		};
+		40DDB2312285D0BE008E2DBD /* ArtBUY */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2322285D0D9008E2DBD /* ArtSaleViewController.swift */,
+				40DDB2662285FEFD008E2DBD /* ArtBuyViewController.swift */,
+			);
+			path = ArtBUY;
+			sourceTree = "<group>";
+		};
+		40DDB2342285D180008E2DBD /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2382285D27D008E2DBD /* BaseViewController.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		40DDB2352285D193008E2DBD /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2612285F323008E2DBD /* DetailSellViewController.swift */,
+				40DDB2632285F33C008E2DBD /* DetailBuyViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		40DDB23A2285D46A008E2DBD /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2602285DD6A008E2DBD /* Savio */,
+				40DDB2492285DD37008E2DBD /* DetailViewController.swift */,
+				40DDB23B2285D46A008E2DBD /* Constants.swift */,
+				40DDB23C2285D46A008E2DBD /* Int+Extension.swift */,
+				40DDB23D2285D46A008E2DBD /* APIService.swift */,
+				40DDB23E2285D46A008E2DBD /* Double+Extension.swift */,
+				40DDB23F2285D46A008E2DBD /* data.txt */,
+				40DDB2402285D46A008E2DBD /* DetailModel.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		40DDB2572285DD57008E2DBD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2592285DD57008E2DBD /* SavioVazModelViewDataSource.swift */,
+				40DDB25A2285DD57008E2DBD /* ImageCacheLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		40DDB2602285DD6A008E2DBD /* Savio */ = {
+			isa = PBXGroup;
+			children = (
+				40DDB2572285DD57008E2DBD /* Services */,
+				40DDB24A2285DD37008E2DBD /* SavioViewController.swift */,
+				40DDB2512285DD41008E2DBD /* SavioModel.swift */,
+				40DDB24B2285DD37008E2DBD /* SavioViewController2.swift */,
+				40DDB2542285DD4B008E2DBD /* SavioTableViewCell.swift */,
+				40DDB2532285DD4B008E2DBD /* SavioTableViewCell.xib */,
+				40DDB24C2285DD37008E2DBD /* SavioViewControllerRX.swift */,
+			);
+			path = Savio;
+			sourceTree = "<group>";
+		};
+		C2D697797AEBC3A74DE549DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */,
+				04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */,
+				EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5804A4EAADB41A590A43690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */,
+				E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */,
+				3F91A521E68BF5D36482E27A /* Pods-BlockArtTests.debug.xcconfig */,
+				3AEDF1CD448341DA97148506 /* Pods-BlockArtTests.release.xcconfig */,
+				15CB093583656727D81F3304 /* Pods-BlockArtUITests.debug.xcconfig */,
+				51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40DDB2222285CD41008E2DBD /* Build configuration list for PBXNativeTarget "BlockArt" */;
 			buildPhases = (
+				BA9A94276658B537D10F0D63 /* [CP] Check Pods Manifest.lock */,
 				40DDB1F62285CD3E008E2DBD /* Sources */,
 				40DDB1F72285CD3E008E2DBD /* Frameworks */,
 				40DDB1F82285CD3E008E2DBD /* Resources */,
+				E21C2498AB0C4D36D6A283CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40DDB2252285CD41008E2DBD /* Build configuration list for PBXNativeTarget "BlockArtTests" */;
 			buildPhases = (
+				2C676BA9AB794AFC2D159E29 /* [CP] Check Pods Manifest.lock */,
 				40DDB20A2285CD41008E2DBD /* Sources */,
 				40DDB20B2285CD41008E2DBD /* Frameworks */,
 				40DDB20C2285CD41008E2DBD /* Resources */,
@@ -167,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40DDB2282285CD41008E2DBD /* Build configuration list for PBXNativeTarget "BlockArtUITests" */;
 			buildPhases = (
+				0FB2E97C6A9353DC60F27662 /* [CP] Check Pods Manifest.lock */,
 				40DDB2152285CD41008E2DBD /* Sources */,
 				40DDB2162285CD41008E2DBD /* Frameworks */,
 				40DDB2172285CD41008E2DBD /* Resources */,
@@ -229,6 +400,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DDB2452285D46B008E2DBD /* data.txt in Resources */,
+				40DDB2552285DD4B008E2DBD /* SavioTableViewCell.xib in Resources */,
 				40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */,
 				40DDB2052285CD41008E2DBD /* Assets.xcassets in Resources */,
 				40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */,
@@ -251,13 +424,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FB2E97C6A9353DC60F27662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockArtUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C676BA9AB794AFC2D159E29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockArtTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A94276658B537D10F0D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockArt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21C2498AB0C4D36D6A283CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/RMessage/RMessage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMessage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40DDB1F62285CD3E008E2DBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DDB2002285CD3E008E2DBD /* ViewController.swift in Sources */,
+				40DDB24D2285DD37008E2DBD /* DetailViewController.swift in Sources */,
+				40DDB2522285DD41008E2DBD /* SavioModel.swift in Sources */,
+				40DDB2502285DD37008E2DBD /* SavioViewControllerRX.swift in Sources */,
+				40DDB2622285F323008E2DBD /* DetailSellViewController.swift in Sources */,
+				40DDB2302285D0B5008E2DBD /* MyArtViewController.swift in Sources */,
+				40DDB2422285D46B008E2DBD /* Int+Extension.swift in Sources */,
+				40DDB22D2285D095008E2DBD /* LoginViewController.swift in Sources */,
+				40DDB2332285D0D9008E2DBD /* ArtSaleViewController.swift in Sources */,
 				40DDB1FE2285CD3E008E2DBD /* AppDelegate.swift in Sources */,
+				40DDB2412285D46B008E2DBD /* Constants.swift in Sources */,
+				40DDB2642285F33C008E2DBD /* DetailBuyViewController.swift in Sources */,
+				40DDB2432285D46B008E2DBD /* APIService.swift in Sources */,
+				40DDB25E2285DD57008E2DBD /* ImageCacheLoader.swift in Sources */,
+				40DDB2442285D46B008E2DBD /* Double+Extension.swift in Sources */,
+				40DDB2462285D46B008E2DBD /* DetailModel.swift in Sources */,
+				40DDB25D2285DD57008E2DBD /* SavioVazModelViewDataSource.swift in Sources */,
+				40DDB2392285D27D008E2DBD /* BaseViewController.swift in Sources */,
+				40DDB2672285FEFD008E2DBD /* ArtBuyViewController.swift in Sources */,
+				40DDB24E2285DD37008E2DBD /* SavioViewController.swift in Sources */,
+				40DDB2562285DD4B008E2DBD /* SavioTableViewCell.swift in Sources */,
+				40DDB24F2285DD37008E2DBD /* SavioViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +721,7 @@
 		};
 		40DDB2232285CD41008E2DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +740,7 @@
 		};
 		40DDB2242285CD41008E2DBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +759,7 @@
 		};
 		40DDB2262285CD41008E2DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F91A521E68BF5D36482E27A /* Pods-BlockArtTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +781,7 @@
 		};
 		40DDB2272285CD41008E2DBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEDF1CD448341DA97148506 /* Pods-BlockArtTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +803,7 @@
 		};
 		40DDB2292285CD41008E2DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CB093583656727D81F3304 /* Pods-BlockArtUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +824,7 @@
 		};
 		40DDB22A2285CD41008E2DBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
