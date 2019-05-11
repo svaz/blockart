@@ -23,6 +23,11 @@ class DetailBuyViewController: UIViewController {
   }
   
   private func  initView() {
+    guard let _ = photoItem else {
+      print("ERROR ************* NO PHOTOITEM")
+      return
+    }
+    
     self.imageTitle.text = photoItem?.title
     if let url = photoItem?.url {
       self.imageView.sd_setImage(with: URL(string: url), placeholderImage: UIImage(named: "placeholder.png"))

@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -50,7 +49,6 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="cBu-Mo-bAw">
                             <connections>
                                 <action selector="generateQRSellCode:" destination="PVU-nW-MfK" id="YIx-T7-7Qg"/>
-                                <segue destination="zBp-5x-cl0" kind="showDetail" id="Xc0-jM-C0M"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -264,7 +262,7 @@
                                         <rect key="frame" x="8" y="61" width="362" height="115"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Terms: All items are sold as is, where is, with all faults. There are no warranties or representations of merchantability, fitness, nor of any other kind, express or implied. All artists’ names and dates recorded in this catalog are not to be taken as unqualified attributions to the artists named. No attributions to any artist or date are made or intended as to authorship or date of execution. Therefore, none of the property in this catalog is subject to any guarantee of authenticity and all of the property is sold “as is”. All items are available for your examination prior to bidding. Your bidding will signify that you have examined the items as fully as you desire, or that you have chosen not to examine them. Written and oral descriptions are opinions and should in no way be construed as a guarantee of any kind as to age, condition, authenticity, materials or any other feature of items being sold. BlockArt Auctions recommends prospective bidders examine all items in which they have an interest.</mutableString>
+                                        <string key="text">Terms: All items are sold as is, where is, with all faults. There are no warranties or representations of merchantability, fitness, nor of any other kind, express or implied. All artists’ names and dates recorded in this catalog are not to be taken as unqualified attributions to the artists named. No attributions to any artist or date are made or intended as to authorship or date of execution. Therefore, none of the property in this catalog is subject to any guarantee of authenticity and all of the property is sold “as is”. All items are available for your examination prior to bidding. Your bidding will signify that you have examined the items as fully as you desire, or that you have chosen not to examine them. Written and oral descriptions are opinions and should in no way be construed as a guarantee of any kind as to age, condition, authenticity, materials or any other feature of items being sold. BlockArt Auctions recommends prospective bidders examine all items in which they have an interest.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -335,7 +333,7 @@
                     <navigationItem key="navigationItem" id="4eA-3O-G8m">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Pji-Z9-tAQ">
                             <connections>
-                                <segue destination="zBp-5x-cl0" kind="showDetail" id="ZoA-8s-R7x"/>
+                                <segue destination="zBp-5x-cl0" kind="presentation" identifier="scanBUYSegue" id="lm3-84-kTQ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -415,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLp-4u-k4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3867" y="542"/>
+            <point key="canvasLocation" x="4583" y="441"/>
         </scene>
         <!--Detail Buy View Controller-->
         <scene sceneID="ecM-4c-YzT">
@@ -453,7 +451,7 @@
                                         <rect key="frame" x="8" y="61" width="362" height="115"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Terms: All items are sold as is, where is, with all faults. There are no warranties or representations of merchantability, fitness, nor of any other kind, express or implied. All artists’ names and dates recorded in this catalog are not to be taken as unqualified attributions to the artists named. No attributions to any artist or date are made or intended as to authorship or date of execution. Therefore, none of the property in this catalog is subject to any guarantee of authenticity and all of the property is sold “as is”. All items are available for your examination prior to bidding. Your bidding will signify that you have examined the items as fully as you desire, or that you have chosen not to examine them. Written and oral descriptions are opinions and should in no way be construed as a guarantee of any kind as to age, condition, authenticity, materials or any other feature of items being sold. BlockArt Auctions recommends prospective bidders examine all items in which they have an interest.</mutableString>
+                                        <string key="text">Terms: All items are sold as is, where is, with all faults. There are no warranties or representations of merchantability, fitness, nor of any other kind, express or implied. All artists’ names and dates recorded in this catalog are not to be taken as unqualified attributions to the artists named. No attributions to any artist or date are made or intended as to authorship or date of execution. Therefore, none of the property in this catalog is subject to any guarantee of authenticity and all of the property is sold “as is”. All items are available for your examination prior to bidding. Your bidding will signify that you have examined the items as fully as you desire, or that you have chosen not to examine them. Written and oral descriptions are opinions and should in no way be construed as a guarantee of any kind as to age, condition, authenticity, materials or any other feature of items being sold. BlockArt Auctions recommends prospective bidders examine all items in which they have an interest.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -509,7 +507,4 @@
             <point key="canvasLocation" x="2376.811594202899" y="1254.6195652173915"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Xc0-jM-C0M"/>
-    </inferredMetricsTieBreakers>
 </document>

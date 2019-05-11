@@ -13,6 +13,7 @@ import UIKit
   class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
+    var transactionType: String?
     
     override func viewDidLoad() {
       super.viewDidLoad()

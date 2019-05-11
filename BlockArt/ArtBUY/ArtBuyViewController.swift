@@ -54,11 +54,16 @@ class ArtBuyViewController: UIViewController {
   //  }
   // MARK: Redirection to Detail view
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    let destVC : DetailBuyViewController = segue.destination as! DetailBuyViewController
-    destVC.photoItem = self.selectedCellData
+    
+    if segue.identifier  == "scanBUYSegue" {
+       let destVC : ScannerViewController = segue.destination as! ScannerViewController
+      destVC.transactionType = "SELL"
+    }else if   segue.identifier  == "myArtDetailBUYSegue" {
+      let destVC : DetailBuyViewController = segue.destination as! DetailBuyViewController
+      destVC.photoItem = self.selectedCellData
   }
 }
-
+}
 extension ArtBuyViewController{
   
   @objc func refresh() {
