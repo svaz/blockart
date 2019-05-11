@@ -1,0 +1,6 @@
+framework module Pods_BlockArtUITests {
+  umbrella header "Pods-BlockArtUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

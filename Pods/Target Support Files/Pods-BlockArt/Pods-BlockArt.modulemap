@@ -1,0 +1,6 @@
+framework module Pods_BlockArt {
+  umbrella header "Pods-BlockArt-umbrella.h"
+
+  export *
+  module * { export * }
+}

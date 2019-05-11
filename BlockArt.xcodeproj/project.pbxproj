@@ -38,7 +38,6 @@
 		40DDB26B22873FFD008E2DBD /* BigAppStreetArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */; };
 		40DDB26D2287557D008E2DBD /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26C2287557D008E2DBD /* ScannerViewController.swift */; };
 		40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB27222875D14008E2DBD /* Assets.xcassets */; };
-		40DDB27522875DC1008E2DBD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB27422875DC1008E2DBD /* Media.xcassets */; };
 		7677AF1CEB612F5A79D24C10 /* Pods_BlockArtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */; };
 		8431C96CFC07D8F4DF0E206E /* Pods_BlockArtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */; };
 		91F7E31436B52A57F35FF67B /* Pods_BlockArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */; };
@@ -104,7 +103,6 @@
 		40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigAppStreetArtViewController.swift; sourceTree = "<group>"; };
 		40DDB26C2287557D008E2DBD /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		40DDB27222875D14008E2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40DDB27422875DC1008E2DBD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtUITests/Pods-BlockArtUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 		40DDB1F12285CD3E008E2DBD = {
 			isa = PBXGroup;
 			children = (
-				40DDB27422875DC1008E2DBD /* Media.xcassets */,
 				40DDB23A2285D46A008E2DBD /* Misc */,
 				40DDB1FC2285CD3E008E2DBD /* BlockArt */,
 				40DDB2112285CD41008E2DBD /* BlockArtTests */,
@@ -315,7 +312,7 @@
 				40DDB1F62285CD3E008E2DBD /* Sources */,
 				40DDB1F72285CD3E008E2DBD /* Frameworks */,
 				40DDB1F82285CD3E008E2DBD /* Resources */,
-				E21C2498AB0C4D36D6A283CD /* [CP] Embed Pods Frameworks */,
+				7B3396B20126FFA69902AE0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,7 +413,6 @@
 				40DDB2552285DD4B008E2DBD /* SavioTableViewCell.xib in Resources */,
 				40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */,
 				40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */,
-				40DDB27522875DC1008E2DBD /* Media.xcassets in Resources */,
 				40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,29 +478,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA9A94276658B537D10F0D63 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BlockArt-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E21C2498AB0C4D36D6A283CD /* [CP] Embed Pods Frameworks */ = {
+		7B3396B20126FFA69902AE0F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -532,6 +506,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A94276658B537D10F0D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockArt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -740,7 +736,6 @@
 			baseConfigurationReference = 309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;
@@ -761,7 +756,6 @@
 			baseConfigurationReference = E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;
