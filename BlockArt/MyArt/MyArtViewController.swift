@@ -59,9 +59,20 @@ class MyArtViewController: UIViewController {
     let destVC : DetailSellViewController = segue.destination as! DetailSellViewController
     destVC.photoItem = self.selectedCellData
   }
+  @IBAction func generateQRSellCode(_ sender: Any) {
+    let image = apiService.generateQRCode(from: "jsksjdksjdksjdksjdksjdksdjksjdskjd")
+    
+  }
 }
 
 extension MyArtViewController{
+  
+  func generateQRCode() {
+   
+    
+  }
+  
+  
   
   @objc func refresh() {
     // Code to refresh table view

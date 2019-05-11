@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		40DDB1FE2285CD3E008E2DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */; };
 		40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2012285CD3E008E2DBD /* Main.storyboard */; };
-		40DDB2052285CD41008E2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2042285CD41008E2DBD /* Assets.xcassets */; };
 		40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2062285CD41008E2DBD /* LaunchScreen.storyboard */; };
 		40DDB2132285CD41008E2DBD /* BlockArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2122285CD41008E2DBD /* BlockArtTests.swift */; };
 		40DDB21E2285CD41008E2DBD /* BlockArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB21D2285CD41008E2DBD /* BlockArtUITests.swift */; };
@@ -35,6 +34,11 @@
 		40DDB2622285F323008E2DBD /* DetailSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2612285F323008E2DBD /* DetailSellViewController.swift */; };
 		40DDB2642285F33C008E2DBD /* DetailBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2632285F33C008E2DBD /* DetailBuyViewController.swift */; };
 		40DDB2672285FEFD008E2DBD /* ArtBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB2662285FEFD008E2DBD /* ArtBuyViewController.swift */; };
+		40DDB26922873CEC008E2DBD /* ContractWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26822873CEC008E2DBD /* ContractWebViewController.swift */; };
+		40DDB26B22873FFD008E2DBD /* BigAppStreetArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */; };
+		40DDB26D2287557D008E2DBD /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26C2287557D008E2DBD /* ScannerViewController.swift */; };
+		40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB27222875D14008E2DBD /* Assets.xcassets */; };
+		40DDB27522875DC1008E2DBD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB27422875DC1008E2DBD /* Media.xcassets */; };
 		7677AF1CEB612F5A79D24C10 /* Pods_BlockArtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */; };
 		8431C96CFC07D8F4DF0E206E /* Pods_BlockArtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */; };
 		91F7E31436B52A57F35FF67B /* Pods_BlockArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */; };
@@ -66,7 +70,6 @@
 		40DDB1FA2285CD3E008E2DBD /* BlockArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40DDB2022285CD3E008E2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40DDB2042285CD41008E2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40DDB2072285CD41008E2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40DDB2092285CD41008E2DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40DDB20E2285CD41008E2DBD /* BlockArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,11 @@
 		40DDB2612285F323008E2DBD /* DetailSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailSellViewController.swift; path = BlockArt/Details/DetailSellViewController.swift; sourceTree = SOURCE_ROOT; };
 		40DDB2632285F33C008E2DBD /* DetailBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuyViewController.swift; sourceTree = "<group>"; };
 		40DDB2662285FEFD008E2DBD /* ArtBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBuyViewController.swift; sourceTree = "<group>"; };
+		40DDB26822873CEC008E2DBD /* ContractWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractWebViewController.swift; sourceTree = "<group>"; };
+		40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigAppStreetArtViewController.swift; sourceTree = "<group>"; };
+		40DDB26C2287557D008E2DBD /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		40DDB27222875D14008E2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DDB27422875DC1008E2DBD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtUITests/Pods-BlockArtUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +142,7 @@
 		40DDB1F12285CD3E008E2DBD = {
 			isa = PBXGroup;
 			children = (
+				40DDB27422875DC1008E2DBD /* Media.xcassets */,
 				40DDB23A2285D46A008E2DBD /* Misc */,
 				40DDB1FC2285CD3E008E2DBD /* BlockArt */,
 				40DDB2112285CD41008E2DBD /* BlockArtTests */,
@@ -163,8 +172,8 @@
 				40DDB22E2285D09F008E2DBD /* MyArt */,
 				40DDB22B2285CD60008E2DBD /* Login */,
 				40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */,
+				40DDB27222875D14008E2DBD /* Assets.xcassets */,
 				40DDB2012285CD3E008E2DBD /* Main.storyboard */,
-				40DDB2042285CD41008E2DBD /* Assets.xcassets */,
 				40DDB2062285CD41008E2DBD /* LaunchScreen.storyboard */,
 				40DDB2092285CD41008E2DBD /* Info.plist */,
 			);
@@ -218,6 +227,9 @@
 			isa = PBXGroup;
 			children = (
 				40DDB2382285D27D008E2DBD /* BaseViewController.swift */,
+				40DDB26822873CEC008E2DBD /* ContractWebViewController.swift */,
+				40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */,
+				40DDB26C2287557D008E2DBD /* ScannerViewController.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -403,8 +415,9 @@
 				40DDB2452285D46B008E2DBD /* data.txt in Resources */,
 				40DDB2552285DD4B008E2DBD /* SavioTableViewCell.xib in Resources */,
 				40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */,
-				40DDB2052285CD41008E2DBD /* Assets.xcassets in Resources */,
 				40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */,
+				40DDB27522875DC1008E2DBD /* Media.xcassets in Resources */,
+				40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,11 +548,13 @@
 				40DDB2302285D0B5008E2DBD /* MyArtViewController.swift in Sources */,
 				40DDB2422285D46B008E2DBD /* Int+Extension.swift in Sources */,
 				40DDB22D2285D095008E2DBD /* LoginViewController.swift in Sources */,
+				40DDB26D2287557D008E2DBD /* ScannerViewController.swift in Sources */,
 				40DDB2332285D0D9008E2DBD /* ArtSaleViewController.swift in Sources */,
 				40DDB1FE2285CD3E008E2DBD /* AppDelegate.swift in Sources */,
 				40DDB2412285D46B008E2DBD /* Constants.swift in Sources */,
 				40DDB2642285F33C008E2DBD /* DetailBuyViewController.swift in Sources */,
 				40DDB2432285D46B008E2DBD /* APIService.swift in Sources */,
+				40DDB26B22873FFD008E2DBD /* BigAppStreetArtViewController.swift in Sources */,
 				40DDB25E2285DD57008E2DBD /* ImageCacheLoader.swift in Sources */,
 				40DDB2442285D46B008E2DBD /* Double+Extension.swift in Sources */,
 				40DDB2462285D46B008E2DBD /* DetailModel.swift in Sources */,
@@ -547,6 +562,7 @@
 				40DDB2392285D27D008E2DBD /* BaseViewController.swift in Sources */,
 				40DDB2672285FEFD008E2DBD /* ArtBuyViewController.swift in Sources */,
 				40DDB24E2285DD37008E2DBD /* SavioViewController.swift in Sources */,
+				40DDB26922873CEC008E2DBD /* ContractWebViewController.swift in Sources */,
 				40DDB2562285DD4B008E2DBD /* SavioTableViewCell.swift in Sources */,
 				40DDB24F2285DD37008E2DBD /* SavioViewController2.swift in Sources */,
 			);
@@ -724,9 +740,11 @@
 			baseConfigurationReference = 309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -743,9 +761,11 @@
 			baseConfigurationReference = E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
