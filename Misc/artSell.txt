@@ -1,0 +1,19 @@
+
+[
+
+{
+"title": "Blockchain Art 07",
+"artist": "Andy Chainblock",
+"creationDate": "07 May 2019",
+"imageFile": "Filter.png",
+"timestamp": "1557230989",
+"media": "digital",
+"description": "Really nice outsider art of a digitial nature 07",
+"price": "1000",
+"currency": "ETH",
+"assetAddress": "0x???",
+"olContractUrl": "u0ykj38k1z:nN9-vf2mTaap3_L_7zuzFYe6D-nsrw_IFJ2ouHlI3y0@u0hypkfkj9-u0n69vd25o-openlaw.us-east-2-svcs.kaleido.io/login",
+"sellerAddress": "0x???"
+}
+]
+
