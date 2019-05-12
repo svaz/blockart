@@ -10,6 +10,7 @@ target 'BlockArt' do
   pod 'SDWebImage'
   pod  'RxCocoa'
   pod 'RxSwift'
+  pod 'QRCodeReader.swift'
   target 'BlockArtTests' do
     inherit! :search_paths
     # Pods for testing

@@ -38,6 +38,7 @@
 		40DDB26B22873FFD008E2DBD /* BigAppStreetArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */; };
 		40DDB26D2287557D008E2DBD /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB26C2287557D008E2DBD /* ScannerViewController.swift */; };
 		40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB27222875D14008E2DBD /* Assets.xcassets */; };
+		40EE51DB22877AD0007344F4 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EE51DA22877AD0007344F4 /* QRScannerView.swift */; };
 		7677AF1CEB612F5A79D24C10 /* Pods_BlockArtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB5FCD2885799D1719AB3DE /* Pods_BlockArtUITests.framework */; };
 		8431C96CFC07D8F4DF0E206E /* Pods_BlockArtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04972235B8E1AC31D23F4E82 /* Pods_BlockArtTests.framework */; };
 		91F7E31436B52A57F35FF67B /* Pods_BlockArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */; };
@@ -103,6 +104,7 @@
 		40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigAppStreetArtViewController.swift; sourceTree = "<group>"; };
 		40DDB26C2287557D008E2DBD /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		40DDB27222875D14008E2DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EE51DA22877AD0007344F4 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		51EC6D868C3241F9A2182552 /* Pods-BlockArtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtUITests/Pods-BlockArtUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5420E652B5CA284E8EE02C60 /* Pods_BlockArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.release.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				40DDB26822873CEC008E2DBD /* ContractWebViewController.swift */,
 				40DDB26A22873FFD008E2DBD /* BigAppStreetArtViewController.swift */,
 				40DDB26C2287557D008E2DBD /* ScannerViewController.swift */,
+				40EE51DA22877AD0007344F4 /* QRScannerView.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
 				"${BUILT_PRODUCTS_DIR}/RMessage/RMessage.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -498,6 +502,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMessage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -541,6 +546,7 @@
 				40DDB2522285DD41008E2DBD /* SavioModel.swift in Sources */,
 				40DDB2502285DD37008E2DBD /* SavioViewControllerRX.swift in Sources */,
 				40DDB2622285F323008E2DBD /* DetailSellViewController.swift in Sources */,
+				40EE51DB22877AD0007344F4 /* QRScannerView.swift in Sources */,
 				40DDB2302285D0B5008E2DBD /* MyArtViewController.swift in Sources */,
 				40DDB2422285D46B008E2DBD /* Int+Extension.swift in Sources */,
 				40DDB22D2285D095008E2DBD /* LoginViewController.swift in Sources */,
@@ -736,6 +742,7 @@
 			baseConfigurationReference = 309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;
@@ -756,6 +763,7 @@
 			baseConfigurationReference = E0F87550A9D8AFD44A746884 /* Pods-BlockArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T4SKC46LK;
 				INFOPLIST_FILE = BlockArt/Info.plist;

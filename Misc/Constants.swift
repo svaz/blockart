@@ -68,23 +68,24 @@ struct AppColor {
  user-account 0x5Be009baD4f63E23571f362FcD408EcC46Baec2D
  */
 struct Accounts {
-  private struct EmailAccounts {
-    static let thomas = "thomaskplunkett@gmail.com"
-    static let mike = "mike@rkosecurity.com"
-    static let remco = "info@remcomichgels.nl"
-    static let jean = "nounahon.j@gmail.com"
-    static let savio = "saviovaz@gmail.com"
+    struct EmailAccounts {
+      static let thomas = "thomaskplunkett@gmail.com"
+      static let mike = "mike@rkosecurity.com"
+      static let remco = "info@remcomichgels.nl"
+      static let jean = "nounahon.j@gmail.com"
+      static let savio = "saviovaz@gmail.com"
   }
 
-  private struct EmailEth {
-    static let thomas = "0x275521480151576995D81503d16D3f2Caae6F13e"
-    static let mike = "0x33F1612BE2C7d69174CF3F8e51eCD367C3DC984A"
-    static let remco = "0x7f320C8BfAc1c1Ec81D41c7d56E2b7887De8bB1e"
-    static let jean = "0x9467012Dd403BAa5290C65B4012b412Aefd44135"
+    struct EmailEth {
+      static let thomas = "0x275521480151576995D81503d16D3f2Caae6F13e"
+      static let mike = "0x33F1612BE2C7d69174CF3F8e51eCD367C3DC984A"
+      static let remco = "0x7f320C8BfAc1c1Ec81D41c7d56E2b7887De8bB1e"
+      static let jean = "0x9467012Dd403BAa5290C65B4012b412Aefd44135"
     static let savio = "0x5Be009baD4f63E23571f362FcD408EcC46Baec2D"
   }
 
 }
+enum Emails { case thomas, mike, remco,jean , savio}
  
 
 

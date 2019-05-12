@@ -10,7 +10,9 @@ import UIKit
 import WebKit
 
 class ContractWebViewController: UIViewController, WKNavigationDelegate {
-var webView: WKWebView!
+  var webView: WKWebView!
+  var URLString: String?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +25,7 @@ var webView: WKWebView!
     webView = WKWebView()
     webView.navigationDelegate = self
     view = webView
-    let url = URL(string: "https://google.com")!  //EndPoint.openLawContract
+    let url = URL(string: URLString)!  //EndPoint.openLawContract
     webView.load(URLRequest(url: url))
     webView.allowsBackForwardNavigationGestures = true
   }

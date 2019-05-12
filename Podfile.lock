@@ -1,5 +1,6 @@
 PODS:
   - HexColors (6.0.0)
+  - QRCodeReader.swift (10.0.0)
   - RMessage (3.0.2):
     - HexColors (~> 6.0)
   - RxCocoa (4.5.0):
@@ -10,6 +11,7 @@ PODS:
   - SDWebImage/Core (5.0.2)
 
 DEPENDENCIES:
+  - QRCodeReader.swift
   - RMessage
   - RxCocoa
   - RxSwift
@@ -18,6 +20,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - HexColors
+    - QRCodeReader.swift
     - RMessage
     - RxCocoa
     - RxSwift
@@ -25,11 +28,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  QRCodeReader.swift: 74d0378eb0c7807828552b49626bbc8307495aee
   RMessage: ed9078db62b3e48613c65078bd2fbed29820c068
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
 
-PODFILE CHECKSUM: bbff655b9c18d9e89794ecd1a6511e4a5977f0c2
+PODFILE CHECKSUM: 381a6b4309c210897faee7eb2ae38654613985b3
 
 COCOAPODS: 1.5.3
