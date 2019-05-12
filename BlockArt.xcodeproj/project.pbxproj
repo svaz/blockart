@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401C48912288626B00BF464A /* art.txt in Resources */ = {isa = PBXBuildFile; fileRef = 401C48902288626B00BF464A /* art.txt */; };
+		401C48992288645F00BF464A /* Filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 401C48922288645E00BF464A /* Filter.png */; };
+		401C489A2288645F00BF464A /* crypto-currency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 401C48932288645E00BF464A /* crypto-currency.jpg */; };
+		401C489B2288645F00BF464A /* bitcoin-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 401C48942288645E00BF464A /* bitcoin-2.jpg */; };
+		401C489C2288645F00BF464A /* bitcoin-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 401C48952288645E00BF464A /* bitcoin-3.jpg */; };
+		401C489D2288645F00BF464A /* blockchain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 401C48962288645E00BF464A /* blockchain.jpg */; };
+		401C489E2288645F00BF464A /* Portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = 401C48972288645F00BF464A /* Portfolio.png */; };
+		401C489F2288645F00BF464A /* bitcoin-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 401C48982288645F00BF464A /* bitcoin-1.jpg */; };
+		401C48A12288766800BF464A /* artSell.txt in Resources */ = {isa = PBXBuildFile; fileRef = 401C48A02288766800BF464A /* artSell.txt */; };
 		40DDB1FE2285CD3E008E2DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */; };
 		40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2012285CD3E008E2DBD /* Main.storyboard */; };
 		40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDB2062285CD41008E2DBD /* LaunchScreen.storyboard */; };
@@ -67,6 +76,15 @@
 		309C077439E4FE5F51E00D58 /* Pods-BlockArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArt/Pods-BlockArt.debug.xcconfig"; sourceTree = "<group>"; };
 		3AEDF1CD448341DA97148506 /* Pods-BlockArtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtTests/Pods-BlockArtTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F91A521E68BF5D36482E27A /* Pods-BlockArtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockArtTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockArtTests/Pods-BlockArtTests.debug.xcconfig"; sourceTree = "<group>"; };
+		401C48902288626B00BF464A /* art.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = art.txt; sourceTree = "<group>"; };
+		401C48922288645E00BF464A /* Filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Filter.png; sourceTree = "<group>"; };
+		401C48932288645E00BF464A /* crypto-currency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crypto-currency.jpg"; sourceTree = "<group>"; };
+		401C48942288645E00BF464A /* bitcoin-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bitcoin-2.jpg"; sourceTree = "<group>"; };
+		401C48952288645E00BF464A /* bitcoin-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bitcoin-3.jpg"; sourceTree = "<group>"; };
+		401C48962288645E00BF464A /* blockchain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blockchain.jpg; sourceTree = "<group>"; };
+		401C48972288645F00BF464A /* Portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portfolio.png; sourceTree = "<group>"; };
+		401C48982288645F00BF464A /* bitcoin-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bitcoin-1.jpg"; sourceTree = "<group>"; };
+		401C48A02288766800BF464A /* artSell.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = artSell.txt; sourceTree = "<group>"; };
 		40DDB1FA2285CD3E008E2DBD /* BlockArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DDB1FD2285CD3E008E2DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40DDB2022285CD3E008E2DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +157,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401C4881228858E800BF464A /* Artassets */ = {
+			isa = PBXGroup;
+			children = (
+				401C48982288645F00BF464A /* bitcoin-1.jpg */,
+				401C48942288645E00BF464A /* bitcoin-2.jpg */,
+				401C48952288645E00BF464A /* bitcoin-3.jpg */,
+				401C48962288645E00BF464A /* blockchain.jpg */,
+				401C48932288645E00BF464A /* crypto-currency.jpg */,
+				401C48922288645E00BF464A /* Filter.png */,
+				401C48972288645F00BF464A /* Portfolio.png */,
+			);
+			path = Artassets;
+			sourceTree = "<group>";
+		};
 		40DDB1F12285CD3E008E2DBD = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +278,7 @@
 		40DDB23A2285D46A008E2DBD /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				401C4881228858E800BF464A /* Artassets */,
 				40DDB2602285DD6A008E2DBD /* Savio */,
 				40DDB2492285DD37008E2DBD /* DetailViewController.swift */,
 				40DDB23B2285D46A008E2DBD /* Constants.swift */,
@@ -253,6 +286,8 @@
 				40DDB23D2285D46A008E2DBD /* APIService.swift */,
 				40DDB23E2285D46A008E2DBD /* Double+Extension.swift */,
 				40DDB23F2285D46A008E2DBD /* data.txt */,
+				401C48902288626B00BF464A /* art.txt */,
+				401C48A02288766800BF464A /* artSell.txt */,
 				40DDB2402285D46A008E2DBD /* DetailModel.swift */,
 			);
 			path = Misc;
@@ -412,10 +447,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C489F2288645F00BF464A /* bitcoin-1.jpg in Resources */,
+				401C48912288626B00BF464A /* art.txt in Resources */,
+				401C489D2288645F00BF464A /* blockchain.jpg in Resources */,
 				40DDB2452285D46B008E2DBD /* data.txt in Resources */,
 				40DDB2552285DD4B008E2DBD /* SavioTableViewCell.xib in Resources */,
+				401C489A2288645F00BF464A /* crypto-currency.jpg in Resources */,
+				401C489B2288645F00BF464A /* bitcoin-2.jpg in Resources */,
 				40DDB2082285CD41008E2DBD /* LaunchScreen.storyboard in Resources */,
+				401C489C2288645F00BF464A /* bitcoin-3.jpg in Resources */,
+				401C48992288645F00BF464A /* Filter.png in Resources */,
 				40DDB2032285CD3E008E2DBD /* Main.storyboard in Resources */,
+				401C489E2288645F00BF464A /* Portfolio.png in Resources */,
+				401C48A12288766800BF464A /* artSell.txt in Resources */,
 				40DDB27322875D15008E2DBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

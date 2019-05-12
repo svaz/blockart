@@ -13,8 +13,11 @@ class DetailBuyViewController: UIViewController {
   @IBOutlet weak var imageTitle: UILabel!
   @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
   
+  @IBOutlet weak var artist: UILabel!
   @IBOutlet weak var buyButton: UIButton!
 
+  @IBOutlet weak var price: UITextField!
+  @IBOutlet weak var creationDate: UILabel!
   public var photoItem: SavioPhoto?
   
   override func viewDidLoad() {
@@ -28,13 +31,23 @@ class DetailBuyViewController: UIViewController {
       return
     }
     
-    self.imageTitle.text = photoItem?.title
-    if let url = photoItem?.url {
-      self.imageView.sd_setImage(with: URL(string: url), placeholderImage: UIImage(named: "placeholder.png"))
+    self.artist.text = photoItem?.artist
+    if let price = photoItem?.price {
+    self.price.text = price + " ETH"
     }
+     self.creationDate.text = photoItem?.creationDate
+    
+    self.imageTitle.text = photoItem?.title
+    if let imageFile = photoItem?.imageFile {
+      self.imageView.image = UIImage(named: imageFile)
+    }
+
   }
   @IBAction func buyAction() {
     print("buy")
+    if let navController = self.navigationController {
+      navController.popViewController(animated: true)
+    }
   }
 
 }

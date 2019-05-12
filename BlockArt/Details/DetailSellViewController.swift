@@ -29,12 +29,20 @@ class DetailSellViewController: UIViewController {
     
     private func  initView() {
       self.imageTitle.text = photoItem?.title
-      if let url = photoItem?.url {
-        self.imageView.sd_setImage(with: URL(string: url), placeholderImage: UIImage(named: "placeholder.png"))
+//      self.artist.text = photoItem?.artist
+//      self.price.text = photoItem?.price
+//      self.creationDate.text = photoItem?.creationDate
+      
+      self.imageTitle.text = photoItem?.title
+      if let imageFile = photoItem?.imageFile {
+        self.imageView.image = UIImage(named: imageFile)
       }
     }
   @IBAction func sellAction() {
     print("Sell")
+    if let navController = self.navigationController {
+      navController.popViewController(animated: true)
+    }
   }
 }
 

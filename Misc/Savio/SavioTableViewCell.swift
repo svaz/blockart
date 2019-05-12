@@ -16,24 +16,26 @@ class SavioTableViewCell: UITableViewCell {
   @IBOutlet weak var id: UILabel!
   @IBOutlet weak var albumId: UILabel!
   @IBOutlet weak var title: UILabel!
-
-//  override func awakeFromNib() {
-//        super.awakeFromNib()
-//        print("Initialization code")
-//    
-//    }
-////
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//        print(" setSelected the view for the selected state")
-//    }
-
+  @IBOutlet weak var price: UILabel!
+  @IBOutlet weak var creationDate: UILabel!
+  @IBOutlet weak var descriptions: UILabel!
+  @IBOutlet weak var artist: UILabel!
+  
   func configure( cellViewModel: SavioPhoto?) {
    // if let _ = cellViewModel.albumId?.stringValue{
-      self.albumId!.text = cellViewModel?.albumId?.stringValue
+     // self.albumId!.text = cellViewModel?.albumId?.stringValue
       self.title!.text = cellViewModel?.title
-      self.id.text = cellViewModel?.id?.stringValue
+     if let price = cellViewModel?.price {
+      self.price.text = price + " ETH"
+    }
+    self.artist.text = cellViewModel?.artist
+    self.descriptions.text = cellViewModel?.description
+    //  self.id.text = cellViewModel?.id?.stringValue
+    
+    if let imageFile = cellViewModel?.imageFile {
+      self.imageViewSmall.image = UIImage(named: imageFile)
+    }
+    
      if let url = cellViewModel?.thumbnailUrl {
       self.imageViewSmall!.sd_setImage(with: URL(string: url), placeholderImage: UIImage(named: "placeholder.png"))
     }

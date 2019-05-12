@@ -41,9 +41,23 @@ class MyArtViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.initView()
-    fetchArtData()
+//    fetchArtData()
+    fetchDataSellFromFile()
   }
   
+  private func fetchDataSellFromFile() {
+    self.apiService.fetchDataSellFromFile(from: endPointURL, successHandler: {[unowned self] (response) in
+      self.allPhotos = response
+      
+      RMController().showMessage(withSpec: self.customSpecMessage,title :"Success pulling in \(self.allPhotos.count) items")
+      //      self.activityIndicator.stopAnimating()
+      print(response.count)
+    }) { [unowned self] (error) in
+      //      self.activityIndicator.stopAnimating()
+      print(error.localizedDescription)
+      RMController().showMessage(withSpec: self.customSpecMessage,title: error.localizedDescription)
+    }
+  }
   
   // MARK: Delegate calls
   //  func loadData() {

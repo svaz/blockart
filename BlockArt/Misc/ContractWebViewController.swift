@@ -25,8 +25,11 @@ class ContractWebViewController: UIViewController, WKNavigationDelegate {
     webView = WKWebView()
     webView.navigationDelegate = self
     view = webView
-    let url = URL(string: URLString)!  //EndPoint.openLawContract
-    webView.load(URLRequest(url: url))
+    if let urlString = URLString {
+          //EndPoint.openLawContract
+      webView.load(URLRequest(url: URL(string: urlString)!))
+    }
+    
     webView.allowsBackForwardNavigationGestures = true
   }
 }

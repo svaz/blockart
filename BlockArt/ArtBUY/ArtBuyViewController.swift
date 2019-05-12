@@ -39,7 +39,8 @@ class ArtBuyViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.initView()
-    fetchArtData()
+//    fetchArtData()
+    fetchDataFromFile()
   }
   
   
@@ -81,7 +82,25 @@ extension ArtBuyViewController{
     }
   }
   
+  
+  private func fetchDataFromFile() {
+    self.apiService.fetchDataFromFile(from: endPointURL, successHandler: {[unowned self] (response) in
+      self.allPhotos = response
+      
+      RMController().showMessage(withSpec: self.customSpecMessage,title :"Success pulling in \(self.allPhotos.count) items")
+      //      self.activityIndicator.stopAnimating()
+      print(response.count)
+    }) { [unowned self] (error) in
+      //      self.activityIndicator.stopAnimating()
+      print(error.localizedDescription)
+      RMController().showMessage(withSpec: self.customSpecMessage,title: error.localizedDescription)
+    }
+  }
+  
+  
   private func fetchArtData() {
+    fetchDataFromFile()
+    return
     self.allPhotos = []
     //    self.activityIndicator.startAnimating()
     

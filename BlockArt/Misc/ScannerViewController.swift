@@ -86,14 +86,12 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
   
   func found(code: String) {
     print(code)
-    let destVC:ContractWebViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("ContractWebViewController") as UIViewController
+    let destVC:ContractWebViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContractWebViewController") as! ContractWebViewController
     destVC.URLString = code
-    self.presentViewController(destVC, animated: false, completion: nil)
-    
-    
-    
-    
-    
+    print("code = \(code)")
+    //http://blockart.be/phone.png
+    self.present(destVC, animated: true, completion: nil)
+
     
   }
   

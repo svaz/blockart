@@ -21,15 +21,35 @@ public class APIServiceStore: APIService {
  
   }
 
-  func fetchDataFromFile(  successHandler: @escaping (BTCXplorer) -> Void,
-                           errorHandler: @escaping (Error) -> Void) {
-    let url = Bundle.main.url(forResource: "data", withExtension: "txt")!
+  
+  func fetchDataSellFromFile(from: String,  successHandler: @escaping ([SavioPhoto]) -> Void,
+                         errorHandler: @escaping (Error) -> Void) {
+    let url = Bundle.main.url(forResource: "artSell", withExtension: "txt")!
     do {
       let jsonData = try Data(contentsOf: url)
       let decoder = JSONDecoder()
-      let response = try decoder.decode(BTCXplorer.self, from: jsonData)
-       self.transactionCount = response.txs.count
-      print("self.transactionCount = \(self.transactionCount)")
+      let response = try decoder.decode([SavioPhoto].self, from: jsonData)
+      //       self.transactionCount = response.txs.count
+      print("self.transactionCount = \(response)")
+      DispatchQueue.main.async {
+        successHandler(response)
+      }
+    } catch {
+      print("******** ERROR" )
+      self.handleError(errorHandler: errorHandler, error: ServiceError.invalidResponse)
+    }
+  }
+  
+  
+  func fetchDataFromFile(from: String,  successHandler: @escaping ([SavioPhoto]) -> Void,
+                           errorHandler: @escaping (Error) -> Void) {
+    let url = Bundle.main.url(forResource: "art", withExtension: "txt")!
+    do {
+      let jsonData = try Data(contentsOf: url)
+      let decoder = JSONDecoder()
+      let response = try decoder.decode([SavioPhoto].self, from: jsonData)
+//       self.transactionCount = response.txs.count
+      print("self.transactionCount = \(response)")
       DispatchQueue.main.async {
         successHandler(response)
       }

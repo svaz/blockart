@@ -4,7 +4,6 @@
 //
 //  Created by savio vaz on 5/10/19.
 //  Copyright © 2019 savio vaz. All rights reserved.
-//
 
 import UIKit
 import RMessage
@@ -14,11 +13,8 @@ class LoginViewController: BaseViewController {
   @IBOutlet weak var loginEmail: UITextField!
   override func viewDidLoad() {
         super.viewDidLoad()
-
-         
+        self.title = "BlockArt"
     }
-  
-  
   
   override func shouldPerformSegue(withIdentifier identifier: String?, sender: Any?) -> Bool {
     
@@ -35,10 +31,15 @@ class LoginViewController: BaseViewController {
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
     if segue.identifier  == "tabVCSegue" {
-      let destVC : ScannerViewController = segue.destination as! ScannerViewController
-      destVC.transactionType = "SELL"
+//      let destVC : ScannerViewController = segue.destination as! ScannerViewController
+//      destVC.transactionType = "SELL"
     }
   }
+  
+  @IBAction func loginAction(_ sender: Any) {
+    self.performSegue(withIdentifier: "tabVCSegue", sender: nil)
+  }
+  
   
   func loginSuccess() -> Bool {
     
@@ -62,16 +63,7 @@ class LoginViewController: BaseViewController {
     if login == Accounts.EmailAccounts.savio {
       ethAddress = Accounts.EmailEth.savio
     }
-  
-    
-    
-    
-    
     return false
   }
   
-  
-   
-  
-
 }
